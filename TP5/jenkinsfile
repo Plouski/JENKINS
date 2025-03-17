@@ -29,12 +29,6 @@ pipeline {
             }
         }
  
-        stage('Deploy') {
-            steps {
-                echo 'Deploying application...'
-                sh 'cd TP5 && ./deploy.sh'  
-            }
-        }
     }
  
     post {
